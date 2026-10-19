@@ -1,0 +1,27 @@
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 20px 40px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #01b4e4;
+}
+
+nav a:first-child {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+nav {
+  gap: 20px;
+}
